@@ -10,6 +10,6 @@
     git pull origin main
 
 
-** Move existing, uncommitted work to a new branch in Git **
+**Move existing, uncommitted work to a new branch in Git**
 
     git switch -c <new-branch>
