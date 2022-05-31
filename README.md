@@ -13,3 +13,7 @@
 **Move existing, uncommitted work to a new branch in Git**
 
     git switch -c <new-branch>
+
+**Untrack a file after you add it to .gitignore
+
+    git rm --cached database.db
