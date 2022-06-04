@@ -14,10 +14,10 @@
 
     git switch -c <new-branch>
 
-**Untrack a file after you add it to .gitignore
+**Untrack a file after you add it to .gitignore**
 
     git rm --cached database.db
 
-**Undo a commit to HEAD~1 while preserving changes with --soft
+**Undo a commit to HEAD~1 while preserving changes with --soft**
 
     git reset --soft HEAD~1
