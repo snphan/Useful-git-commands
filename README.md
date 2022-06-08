@@ -22,10 +22,10 @@
 
     git reset --soft HEAD~1
 
-**Git Stash just one file
+**Git Stash just one file**
     
     git stash -- [filename]
     
-**Exclude one file from git diff
+**Exclude one file from git diff**
     
     git diff -- . ":(exclude)[filename]"
