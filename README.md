@@ -21,3 +21,11 @@
 **Undo a commit to HEAD~1 while preserving changes with --soft**
 
     git reset --soft HEAD~1
+
+**Git Stash just one file
+    
+    git stash -- [filename]
+    
+**Exclude one file from git diff
+    
+    git diff -- . ":(exclude)[filename]"
