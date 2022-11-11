@@ -29,3 +29,11 @@
 **Exclude one file from git diff**
     
     git diff -- . ":(exclude)[filename]"
+
+**Setup Git to Track Exisiing Repo**
+
+    git remote add origin https://github.com/snphan/dafsaf.git
+    git branch -M main
+    git push -u origin main
+    
+**`Might need to add --allow-unrelated-histories flag when git pull`**
